@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Information</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>User Information</h1>
+    <form>
+      <div class="container">
+        <div>
+          <label for="username">Enter Your Name</label>
+          <input type="text" name="username" id="username" />
+        </div>
+
+        <div>
+          <label for="age">Select Your age:</label>
+          <select name="age" id="age">
+            <option value="young">10 to 25</option>
+            <option value="middle1">25 to 35</option>
+            <option value="middle2">35 to 50</option>
+            <option value="old">50 to 80</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" />
+          <label for="other">Other</label>
+        </div>
+
+        <div>
+          <label for="">Choose Your Hobbies</label><br />
+          <input type="checkbox" name="paint" id="paint" />
+          <label for="paint">painting</label>
+          <input type="checkbox" name="read" id="read" />
+          <label for="read">Reading</label>
+          <input type="checkbox" name="listen" id="listen" />
+          <label for="listen">Listening</label>
+        </div>
+
+        <div>
+          <label for="address">Address</label><br />
+          <textarea name="address" id="address" cols="30" rows="5"> </textarea>
+        </div>
+
+        <div>
+          <label for="body">Choose Your Type</label><br />
+          <select name="body" id="body">
+            <optgroup label="Hair color">
+              <option value="glod">gold</option>
+              <option value="brown">brown</option>
+              <option value="black">black</option>
+            </optgroup>
+            <optgroup label="Eye color">
+              <option value="green">green</option>
+              <option value="black">black</option>
+            </optgroup>
+            <optgroup label="Height">
+              <option value="under">under 5'</option>
+              <option value="mid">between 5' and 6'</option>
+              <option value="above">above 6'</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
